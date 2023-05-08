@@ -12,11 +12,13 @@ The Interactive IOS Scale for Multiparty Interactions was developed to measure t
 This measure is adapted from Aron's Inclusion of Other in the Self Scale [1] to capture people's perception of social closeness among multiple interactants, and it is also grounded in a wealth of psychological studies that measured social distance based on physical distance between individuals [2] as well as their computerized protagonists [3].
 
 [1] Aron, A., Aron, E. N., & Smollan, D. (1992). Inclusion of other in the self scale and the structure of interpersonal closeness. *Journal of personality and social psychology*, 63(4), 596.
+
 [2] Holland, R. W., Roeder, U. R., Rick B. van, B., Brandt, A. C., & Hannover, B. (2004). Don't stand so close to me: The effects of self-construal on interpersonal closeness. *Psychological science*, 15(4), 237-242.
+
 [3] Perry, A., Mankuta, D., & Shamay-Tsoory, S. G. (2015). OT promotes closer interpersonal distance among highly empathic individuals. *Social cognitive and affective neuroscience*, 10(1), 3-9.
 
 
 ## Integration with Qualtrics 
 1. Define the appropriate "embedded data" blocks in the Survey Flow tab. 
-2. Copy the code into the custom JavaScript tab (Survey > Edit Question > Question Behavior > JavaScript)
+2. Copy the code in `ios_task.js` into the custom JavaScript tab (Survey > Edit Question > Question Behavior > JavaScript)
 3. Qualtrics.SurveyEngine.setEmbeddedData(yourVarName, yourVarValue) will update the Qualtrics embedded data with the updated values
