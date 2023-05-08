@@ -5,6 +5,9 @@
 
 Study by [Alex Wuqi Zhang](mailto:alexwuqizhang@uchicago.edu), [Ting-Han Lin](mailto:tinghan@uchicago.edu), [Xuan Zhao](mailto:xuanzhao@stanford.edu), and [Sarah Sebo](mailto:sarahsebo@uchicago.edu) at the [Human-Robot Interaction Lab](https://hri.cs.uchicago.edu) at the University of Chicago.
 
+
+[Interactive IOS Scale for Multiparty Interactions Demo](https://github.com/SeboLab/interactive_ios_scale/blob/main/IOS_task_demo.gif)
+
 ## Integration with Qualtrics 
 1. Define the appropriate "embedded data" blocks in the Survey Flow tab. 
 2. Copy the code into the custom JavaScript tab (Survey > Edit Question > Question Behavior > JavaScript)
