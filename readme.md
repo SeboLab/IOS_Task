@@ -19,6 +19,19 @@ This measure is adapted from Aron's Inclusion of Other in the Self Scale [1] to 
 
 
 ## Integration with Qualtrics 
-1. Define the appropriate "embedded data" blocks in the Survey Flow tab. 
-2. Copy the code in `ios_task.js` into the custom JavaScript tab (Survey > Edit Question > Question Behavior > JavaScript)
-3. Qualtrics.SurveyEngine.setEmbeddedData(yourVarName, yourVarValue) will update the Qualtrics embedded data with the updated values
+
+1. Define the following "embedded data" blocks in the Survey Flow tab. 
+
+![qualtrics_embedded_data.png](https://github.com/SeboLab/interactive_ios_scale/blob/main/qualtrics_embedded_data.png)
+
+2. Create a new Text/Graphic question in your Qualtrics survey of content type `Text`. 
+
+3. Copy the code in `ios_task.js` into the custom JavaScript tab (Survey > Edit Question > Question Behavior > JavaScript)
+
+4. Copy and paste the following into the "HTML" view of the question content: 
+
+```
+<div style="text-align:center"><canvas class="myCanvas" height="${e://Field/canvas_height}px" style="border:1px solid #d3d3d3;" width="${e://Field/canvas_width}px"> Your browser does not support the HTML5 canvas tag.</canvas></div>
+```
+
+5. Qualtrics.SurveyEngine.setEmbeddedData(yourVarName, yourVarValue) will update the Qualtrics embedded data with the updated values
