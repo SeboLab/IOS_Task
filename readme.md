@@ -1,4 +1,4 @@
-# Interactive IOS Scale for Multiparty Interactions: A Measure of Interpersonal Closeness with Multiple Interactants
+# Interactive IOS Scale for Multiparty Interactions (IIMI): A Measure of Interpersonal Closeness with Multiple Interactants
 
 > Open-Source Code Release for 
 > *"Ice-Breaking Technology: Robots and Computers Can Foster Meaningful Connections between Strangers through In-Person Conversations"* 
@@ -6,7 +6,7 @@
 ![IOS_task_demo.gif](https://github.com/SeboLab/interactive_ios_scale/blob/main/IOS_task_demo.gif)
 
 
-The Interactive IOS Scale for Multiparty Interactions was developed to measure the interpersonal closeness between three interactants with an intuitive drag-and drop interface for the project presented in the paper [Ice-Breaking Technology: Robots and Computers Can Foster Meaningful Connections between Strangers through In-Person Conversations](https://dl.acm.org/doi/10.1145/3544548.3581135) by [Alex Wuqi Zhang](mailto:alexwuqizhang@uchicago.edu), [Ting-Han Lin](mailto:tinghan@uchicago.edu), [Xuan Zhao](mailto:xuanzhao@stanford.edu), and [Sarah Sebo](mailto:sarahsebo@uchicago.edu) at the [Human-Robot Interaction Lab](https://hri.cs.uchicago.edu) at the University of Chicago. The Interactive IOS Scale for Multiparty Interactions was written in javascript for integration with Qualtrics by [Kaushal Addanki](mailto:kaushal.addanki@chicagobooth.edu), Research Application Developer at UChicago's Center for Decision Research.
+The Interactive IOS Scale for Multiparty Interactions (IIMI) was developed to measure the interpersonal closeness between three interactants with an intuitive drag-and drop interface for the project presented in the paper [Ice-Breaking Technology: Robots and Computers Can Foster Meaningful Connections between Strangers through In-Person Conversations](https://dl.acm.org/doi/10.1145/3544548.3581135) by [Alex Wuqi Zhang](mailto:alexwuqizhang@uchicago.edu), [Ting-Han Lin](mailto:tinghan@uchicago.edu), [Xuan Zhao](mailto:xuanzhao@stanford.edu), and [Sarah Sebo](mailto:sarahsebo@uchicago.edu) at the [Human-Robot Interaction Lab](https://hri.cs.uchicago.edu) at the University of Chicago. The Interactive IOS Scale for Multiparty Interactions was written in javascript for integration with Qualtrics by [Kaushal Addanki](mailto:kaushal.addanki@chicagobooth.edu), Research Application Developer at UChicago's Center for Decision Research.
 
 
 This measure is adapted from Aron's Inclusion of Other in the Self Scale [1] to capture people's perception of social closeness among multiple interactants, and it is also grounded in a wealth of psychological studies that measured social distance based on physical distance between individuals [2] as well as their computerized protagonists [3].
