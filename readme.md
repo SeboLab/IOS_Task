@@ -26,7 +26,7 @@ This measure is adapted from Aron's Inclusion of Other in the Self Scale [1] to 
 
 2. Create a new Text/Graphic question in your Qualtrics survey of content type `Text`. 
 
-3. Copy the code in `ios_task.js` into the custom JavaScript tab (Survey > Edit Question > Question Behavior > JavaScript)
+3. Copy the code in `ios_task.js` into the custom JavaScript tab (Survey > Edit Question > Question Behavior > JavaScript). Please note that only the upgraded Qualtrics account has access to the JavaScript feature.
 
 4. Copy and paste the following into the "HTML" view of the question content: 
 
