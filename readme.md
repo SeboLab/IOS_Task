@@ -37,4 +37,4 @@ This measure is adapted from Aron's Inclusion of Other in the Self Scale [1] to 
 5. Qualtrics.SurveyEngine.setEmbeddedData(yourVarName, yourVarValue) will update the Qualtrics embedded data with the updated values
 
 ## Update
-05/05/2024: ios_task.js is updated such that the question's next button will only show up after one of the circles is dragged. This update is meant to address the issue where participants did not attempt to move the circles at all.
+05/05/2024: ios_task.js is updated such that the question's next button will only show up after one of the circles is dragged. This update is meant to address the issue where participants did not attempt to move the circles at all and were still able to continue the survey.
